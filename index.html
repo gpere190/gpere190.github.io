@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Gricelle's Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gricelle Perez</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-top: 20px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .content h2 {
+      margin-top: 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #4e54c8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .links a:hover {
+      background: #343aeb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I'm Gricelle!</h1>
-  <p>Welcome to my personal GitHub Pages site.</p>
+
+  <header>
+    <img src="https://avatars.githubusercontent.com/u/000000?v=4" class="profile-pic" alt="Profile picture" />
+    <h1>Gricelle Perez</h1>
+    <p>Software Engineer · Problem Solver · Tech Explorer</p>
+  </header>
+
+  <div class="content">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate software engineer with experience in full-stack development, video surveillance systems, and automation. 
+      I love building tools that make life easier, smarter, and more secure. Always curious, always learning.
+    </p>
+
+    <h2>Links</h2>
+    <div class="links">
+      <a href="https://github.com/gpere190" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
+      <a href="https://gpere190.github.io/gricelleperez.github.io/" target="_blank">My Notepad PWA</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Gricelle Perez
+  </footer>
+
 </body>
 </html>
