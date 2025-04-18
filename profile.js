@@ -1,13 +1,13 @@
   const modal = document.getElementById("notepadModal");
-  const btn = document.querySelector(".modal-btn");
-  const closeBtn = document.querySelector(".close-btn");
+  const openModalBtn = document.getElementById("openModalBtn");
+  const closeModalBtn = document.getElementById("closeModalBtn");
 
-  btn.addEventListener("click", (e) => {
+  openModalBtn.addEventListener("click", (e) => {
     e.preventDefault();
     modal.style.display = "block";
   });
 
-  closeBtn.addEventListener("click", () => {
+  closeModalBtn.addEventListener("click", () => {
     modal.style.display = "none";
   });
 
