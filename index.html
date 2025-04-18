@@ -5,26 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gricelle Perez</title>
   <link rel="stylesheet" href="style.css">
-  <script> 
-        const modal = document.getElementById("notepadModal");
-      const openModalBtn = document.getElementById("openModalBtn");
-      const closeModalBtn = document.getElementById("closeModalBtn");
-      
-      openModalBtn.addEventListener("click", function(e) {
-        e.preventDefault(); // prevent jumping to top or opening new tab
-        modal.style.display = "block";
-      });
-      
-      closeModalBtn.addEventListener("click", function() {
-        modal.style.display = "none";
-      });
-      
-      window.addEventListener("click", function(e) {
-        if (e.target === modal) {
-          modal.style.display = "none";
-        }
-      });
-  </script>
+ 
 </head>
 <body>
   <header>
@@ -54,5 +35,27 @@
   </footer>
    
 </div>
+
+
+   <script> 
+        const modal = document.getElementById("notepadModal");
+      const openModalBtn = document.getElementById("openModalBtn");
+      const closeModalBtn = document.getElementById("closeModalBtn");
+      
+      openModalBtn.addEventListener("click", function(e) {
+        e.preventDefault(); // prevent jumping to top or opening new tab
+        modal.style.display = "block";
+      });
+      
+      closeModalBtn.addEventListener("click", function() {
+        modal.style.display = "none";
+      });
+      
+      window.addEventListener("click", function(e) {
+        if (e.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+  </script>
 </body>
 </html>
